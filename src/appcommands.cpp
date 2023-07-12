@@ -39,6 +39,7 @@ static constexpr size_t GUID_SIZE = 16;
 // can make each define their own locations.
 static constexpr off_t OFFSET_SYS_GUID = 0x17F0;
 static constexpr off_t OFFSET_DEV_GUID = 0x1800;
+static constexpr off_t OFFSET_DEV_GUID = 0x1900;
 static constexpr const char *FRU_EEPROM = "/sys/bus/i2c/devices/6-0054/eeprom";
 
 // TODO: Need to store this info after identifying proper storage
